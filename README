@@ -1,0 +1,36 @@
+# Voice to Text Converter (Real-Time)
+
+A simple and efficient **real-time voice-to-text converter** built using:
+
+- Python  
+- FastAPI  
+- OpenAI Realtime API  
+- Streamlit (optional UI)  
+- Microphone Audio Recorder  
+
+This project listens to your voice and converts it to text in **real time**, similar to how Alexa/Google Assistant work.
+
+---
+
+## 🚀 Features
+
+- 🎤 **Real-time voice recording**
+- 🔊 **Stream audio chunks to the server**
+- 🧠 **Use OpenAI Realtime API for transcription**
+- ⚡ **Low-latency responses**
+- 🖥️ **Optional Streamlit UI**
+- 🔧 **Beginner-friendly and lightweight**
+
+---
+
+## 📁 Project Structure
+
+
+voice_to_text_convert/
+│── main.py # FastAPI backend server
+│── real_time_client.py # Client to send audio chunks to server
+│── recorder.py # Microphone recorder
+│── streamlit_app.py # Optional user interface
+│── pycache/ # Cache files
+│── .gitignore # Git ignore settings
+
