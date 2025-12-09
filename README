@@ -76,19 +76,11 @@ To test the system, follow these steps:
 2. Use the `streamlit run` command to run the Streamlit app and interact with the system.
 3. Use the `curl` command to test the server-side API and verify that it is working correctly.
 
-📸 Screenshots
--------------
-[![Streamlit App Screenshot](https://via.placeholder.com/400x300)](https://via.placeholder.com/400x300)
-[![Server API Screenshot](https://via.placeholder.com/400x300)](https://via.placeholder.com/400x300)
-
 📦 API Reference
 ----------------
 The server-side API provides the following endpoints:
 * **POST /transcribe**: Transcribes audio data and returns the text transcription.
 * **GET /health**: Returns the health status of the server.
-
-### API Documentation
-The API documentation is available at [https://via.placeholder.com/api/docs](https://via.placeholder.com/api/docs).
 
 👤 Author
 -------
@@ -96,5 +88,5 @@ The Real-Time Voice-to-Text Transcription System was developed by [Abhay].
 
 📝 License
 -------
-The Real-Time Voice-to-Text Transcription System is licensed under the [MIT License](https://via.placeholder.com/license).
+The Real-Time Voice-to-Text Transcription System is licensed under the [MIT License].
 
